@@ -1,0 +1,40 @@
+Follow these instructions to build a VS2017 opencv file.
+1. Location of "include" file.
+    1. Select "Project"
+    2. Select "Properties"
+    3. Select "Configuration Properties"
+    4. Select "C/C++"
+    5. Select "General"
+    6. Enter the location of the include file into "Additional Include 
+       Directories".
+        -In my case it would be: C:\Program Files\opencv\opencv\build\include
+2. Location of "lib" files
+    1. Select "Linker" on properties page.
+    2. Select "General"
+    3. Enter the location of the “.lib” files in the slot called
+       “Additional Library Directories”.
+       -In my case it would be: 
+        C:\Program Files\opencv\opencv\build\x86\vc14\lib
+3. Names of "lib" files
+    1. Go to “Input” under “Linker”
+    2. Enter in “Additional Dependencies”, all the library names.
+        -In my case they would be:
+        opencv_calib3d2413d.lib
+        opencv_contrib2413d.lib
+        opencv_core2413d.lib
+        opencv_features2d2413d.lib
+        opencv_flann2413d.lib
+        opencv_gpu2413d.lib
+        opencv_highgui2413d.lib
+        opencv_imgproc2413d.lib
+        opencv_legacy2413d.lib
+        opencv_ml2413d.lib
+        opencv_nonfree2413d.lib
+        opencv_objdetect2413d.lib
+        opencv_ocl2413d.lib
+        opencv_photo2413d.lib
+        opencv_stitching2413d.lib
+        opencv_superres2413d.lib
+        opencv_ts2413d.lib
+        opencv_video2413d.lib
+        opencv_videostab2413d.lib
