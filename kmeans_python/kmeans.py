@@ -4,7 +4,7 @@ import cv2
 
 def main(argv):
    if len(sys.argv) < 2 or len(sys.argv) > 3:
-      sys.exit("Usage: python kmeans.py <image>.jpg")
+      sys.exit("Usage: python kmeans.py <image>.jpg <k value>")
    img = cv2.imread(argv[1])
    Z = img.reshape((-1,3))
 
