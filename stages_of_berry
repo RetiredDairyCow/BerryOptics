@@ -1,0 +1,12 @@
+As a brand new baby, the strawberries possess white leaves and a yellow center (AKA a flower)
+  Use two HSV masks (for white and green) then or them together into a single mask
+  
+After 1 week, whiteish green with smaller green leaves
+
+After 2 weeks, Whitish green with more mature green leaves
+
+After 2 weeks 4 days, berry is mature (red)
+
+Cycle is green->white->red
+
+Might also consider a mask that masks white and red to identify strawberries that are in between maturing stages
