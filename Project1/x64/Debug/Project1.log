@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project1 (1).vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+c:\users\jamborinski\google drive\c programs\project1\project1\source.cpp(31): warning C4244: '=': conversion from 'float' to 'uchar', possible loss of data
+c:\users\jamborinski\google drive\c programs\project1\project1\source.cpp(32): warning C4244: '=': conversion from 'float' to 'uchar', possible loss of data
+c:\users\jamborinski\google drive\c programs\project1\project1\source.cpp(33): warning C4244: '=': conversion from 'float' to 'uchar', possible loss of data
+  Project1.vcxproj -> C:\Users\Jamborinski\Google Drive\C programs\Project1\x64\Debug\Project1.exe
